@@ -1,0 +1,163 @@
+/* 
+  Localization.strings
+  auth
+
+  Created by Alexandr on 28.12.2021.
+  
+*/
+
+
+
+
+//MARK: - Used more than once
+"BackButtonTitle" = "Назад";
+"AgreePrivacyPolicyAlertText" = "Согласитесь с политикой конфиденциальности перед тем как начать использовать приложение";
+//MARK: -
+"WrongPasswordAlertText" = "Неверный пароль";
+"WrongPhoneAlertText" = "Неверный номер";
+"WrongEmailAlertTitle" = "Неверная почта";
+//MARK: -
+"NumberPhonePlaceholderTF" = "Номер телефона";
+"PasswordPlaceholderTF" = "Пароль";
+"RegistrationButtonTtitle" = "Регистрация";
+//MARK: -
+"NameTitle" = "Имя";
+"LastNameTitle" = "Фамилия";
+//MARK: -
+"ChooseLevelPreparation" = "ВЫБЕРИТЕ ВАШ УРОВЕНЬ ПОДГОТОВКИ:";
+"BeginnerLevel" = "Новичок";
+"SecondLevel" = "2-ой уровень";
+"ThirdLevel" = "3-ой уровень";
+"ProLevel" = "Профи";
+//MARK: -
+"RibbonBarItemTitle" = "Лента";
+//MARK: -
+"GenderTitle" = "УКАЖИТЕ ВАШ ПОЛ, ПОЖАЛУЙСТА.";
+"MaleTitle" = "Мужской";
+"FemaleTitle" = "Женский";
+//MARK: -
+"DistanceTitle" = "Расстояние, км";
+"TimeTitle" = "Время, часов";
+"CaloriesTitle" = "Потрачено ккал";
+"AwardsTitle" = "НАГРАДЫ";
+//MARK: -
+"WorkoutFinishedTitle" = "Тренировка завершена";
+//MARK: -
+"WrongPhone" = "Аккаунт с таким телефоном не существует";
+"WrongPassword" = "Пароль или телефон неверны";
+"NoInternet" = "Нет подключения к интернету";
+"AuthError" = "Ошибка авторизации";
+"Error" = "Ошибка";
+"AccountWithThisEmailAlreadyExists" = "Аккаунт с таким емейлом уже существует";
+"AccountWithSuchPhoneAlreadyExists" = "Аккаунт с таким телефоном уже существует";
+//MARK: -
+"SearchTitle" = "Поиск";
+"CancelButtonTitle" = "Отмена";
+//MARK: -
+"FriendsTitle" = "МОИ ДРУЗЬЯ";
+"AddFriendButtonTitle" = "Добавить друга";
+//MARK: -
+"AwardsTitle" = "ВСЕ НАГРАДЫ";
+
+//MARK: - Login Screen
+"AuthorizationTitle" = "АВТОРИЗАЦИЯ";
+"LoginButtonTitle" = "Войти";
+"ForgotPasswordButtonTitle" = "Забыли пароль?";
+"SignInWithGoogleButtonTitle" = "Войти с помощью Google";
+"SignInWithVkButtonTitle" = "Войти с Вк";
+"SignInWithFBButtonTitle" = "Войти с FB";
+"Success" = "Успешно";
+
+//MARK: - Registration
+"RegistrationTitle" = "РЕГИСТРАЦИЯ";
+"EnterYourNameTitle" = "Введите имя";
+"EmailPlaceholderTF" = "Почта";
+"InputLastNameAlertTitle" = "Введите фамилию";
+"ConfirmPasswordPlaceholderTF" = "Повторите Пароль";
+
+//MARK: - RecoveryPassword
+"RecoveryPasswordTitle" = "ВОССТАНОВЛЕНИЕ ПАРОЛЯ";
+"EmailTFTitle" = "Email";
+"RecoveryButtonTitle" = "Восстановить";
+
+//MARK: - TabBarControllers
+"WorkoutTitle" = "ТРЕНИРОВКИ";
+"ActivityTitle" = "АКТИВНОСТЬ";
+"RibbonTitle" = "ЛЕНТА";
+"ProfileTitle" = "ПРОФИЛЬ";
+//MARK: - TabBar
+"WorkoutBarItemTitle" = "Тренировки";
+"ActivityBarItemTitle" = "Активность";
+"ProfileBarItemTitle" = "Профиль";
+
+//MARK: - ListWorkouts
+"25SegmentTitle" = "25 метров";
+"50SegmentTitle" = "50 метров";
+"Download" = "Скачать";
+
+//MARK: - MyData
+"MyDataTitle" = "МОИ ДАННЫЕ";
+"ChangePhotoButtonTitle" = "Изменить фото";
+"IndicateYourNameTitle" = "Укажите ваше имя, пожалуйста.";
+"IndicateYourLastNameTitle" = "Укажите вашу фамилию, пожалуйста.";
+"MyGenderTitle" = "Мой пол";
+"IndicateYourGenderTitle" = "Укажите ваш пол, пожалуйста.";
+"MyAgeTitle" = "Мой возраст";
+"IndicateYourAgeTitle" = "Укажите ваш возраст, пожалуйста.";
+"MyHeightTitle" = "Мой рост";
+"IndicateYourHeightTitle" = "Укажите ваш рост, пожалуйста.";
+"MyWeightTitle" = "Мой вес";
+"IndicateYourWeightTitle" = "Укажите ваш вес на данный момент, пожалуйста.";
+"MyDesiredWeightTitle" = "Желаемый вес";
+"IndicateYourDesiredWeightTitle" = "Укажите вес к которому вы стремитесь, пожалуйста.";
+"SaveButtonTitle" = "Сохранить";
+"LogoutButtonTitle" = "Выйти из аккаунта";
+
+//MARK: - Awards
+"FriendTitle" = "друга";
+
+//MARK: - Profile
+"MyDataButtonTitle" = "Мои данные";
+"MyFriendsButtonTile" = "Мои друзья";
+"AllAwardsButtonTitle" = "Смотреть все награды";
+
+//MARK: - Comments
+"CommentsTitle" = "КОММЕНТАРИИ";
+
+//MARK: - Result
+"ResultTitle" = "РЕЗУЛЬТАТ";
+"ShareButtonTitle" = "Поделиться с друзьями";
+"NextWorkoutButtonTitle" = "Следующая тренировка";
+
+//MARK: - LoginError
+"FailSavePDF" = "Ошибка сохранения";
+
+//MARK: - PhoneView
+"BeginTraining" = "Начать тренировку";
+"FinishTraining" = "Завершить тренировку";
+
+//MARK: - Activity
+"Today" = "Сегодня";
+"Yesterday" = "Вчера";
+
+//MARK: - SearchController
+"AddFriendMessage" = "Вы действительно хотите добавить в друзья ";
+"No" = "НЕТ";
+"Yes" = "ДА";
+"EnterNameTitle"= "Введите имя";
+
+//MARK: - RibbonViewController
+"Minutes" = "минут назад";
+"Hours" = "часа назад";
+
+//MARK: PlaceholderView
+"PlaceholderLabelTitle" = "Добавьте друзей, чтобы видеть их публикации";
+
+//MARK: - Video View
+"VideoNull" = "Видео отсутствует";
+
+//MARK: - IAP ViewController
+"DescrptionIAP" = "Данное упражнение доступно для просмотра премиум пользователям. Приобретите премиум аккаунт сейчас, чтобы получить доступ к самым лучшим упражнениям.";
+"MonthSubTitle" = "/месяц";
+"YearSubTitle" = "/год (экономия 23%)";
+

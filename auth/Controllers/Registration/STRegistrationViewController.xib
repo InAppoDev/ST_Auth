@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Geometria-Bold.ttf">
+            <string>Geometria-Bold</string>
+        </array>
+        <array key="Geometria.ttf">
+            <string>Geometria</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STRegistrationViewController" customModule="st_auth" customModuleProvider="target">
+            <connections>
+                <outlet property="checkBoxView" destination="u0y-Kl-kwK" id="aYT-Ou-OYj"/>
+                <outlet property="confirmPasswordTFOutlet" destination="7LR-3B-kVJ" id="crA-jZ-R6o"/>
+                <outlet property="emailTFOutlet" destination="FPV-I0-eHL" id="F2g-TU-9pQ"/>
+                <outlet property="imageHeightConstraint" destination="zeq-Zb-nFi" id="qCY-Y9-g2l"/>
+                <outlet property="lastNameTFOutlet" destination="BnE-hx-bCe" id="kEX-ca-a7q"/>
+                <outlet property="nameTFOutlet" destination="QwJ-ef-JAm" id="hTu-Qo-t6Z"/>
+                <outlet property="numberPhoneTFOutlet" destination="Pd8-Oa-E7F" id="HFS-wD-etw"/>
+                <outlet property="passwordTFOutlet" destination="qVL-k0-aFS" id="9TD-XL-pBf"/>
+                <outlet property="privacyPolicyButtonOutlet" destination="94T-Re-Y8a" id="LTo-qA-wqT"/>
+                <outlet property="registrationButtonOutlet" destination="aHg-2x-qOQ" id="Ta6-as-TcE"/>
+                <outlet property="scrollView" destination="UOL-hL-v10" id="p2e-b1-acc"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zwv-1c-72w"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UOL-hL-v10">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-34-kYA">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="730"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="auth_background" translatesAutoresizingMaskIntoConstraints="NO" id="Sne-s6-Jfu">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="730"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="730" id="zeq-Zb-nFi"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Gvf-iL-rHr">
+                                    <rect key="frame" x="40" y="125" width="334" height="445"/>
+                                    <subviews>
+                                        <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Имя" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QwJ-ef-JAm" customClass="CustomTextField" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="O20-rk-1dI">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="8nu-AB-crm"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Фамилия" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BnE-hx-bCe" customClass="CustomTextField" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="70" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="Ejr-cb-JbE">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="An0-pW-ByR"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Номер телефона" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pd8-Oa-E7F" customClass="NumberPhoneTF" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="140" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="EBZ-Ac-sRr">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="next"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="B7s-Wq-cWZ"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Почта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FPV-I0-eHL" customClass="CustomTextField" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="210" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="afj-d2-f5j">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="pcB-a1-wGU"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qVL-k0-aFS" customClass="PasswordTF" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="280" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="1xQ-ww-F7e">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="uqA-DZ-kVq"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Повторите Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7LR-3B-kVJ" customClass="PasswordTF" customModule="st_auth" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="350" width="334" height="50"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="Eza-S1-JRd">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="21"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Geometria" family="Geometria" pointSize="27"/>
+                                            </variation>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="E84-N4-3mI"/>
+                                            </connections>
+                                        </textField>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="h8r-hk-6Yf">
+                                            <rect key="frame" x="0.0" y="420" width="334" height="25"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u0y-Kl-kwK" customClass="CheckboxView" customModule="st_auth" customModuleProvider="target">
+                                                    <rect key="frame" x="8" y="0.0" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="eOm-Bs-Ufd">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                                                        </constraint>
+                                                        <constraint firstAttribute="height" constant="25" id="kjJ-kk-ANj">
+                                                            <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                                                        </constraint>
+                                                    </constraints>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94T-Re-Y8a">
+                                                    <rect key="frame" x="38" y="0.0" width="288" height="25"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Политика конфиденциальности">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="privacyPolicyButtonTapped:" destination="-1" eventType="touchUpInside" id="IKB-Yb-wld"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <edgeInsets key="layoutMargins" top="0.0" left="8" bottom="0.0" right="8"/>
+                                            <variation key="heightClass=regular-widthClass=regular" spacing="10"/>
+                                        </stackView>
+                                    </subviews>
+                                    <variation key="heightClass=regular-widthClass=regular" spacing="25"/>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHg-2x-qOQ" customClass="GradientButton" customModule="st_auth" customModuleProvider="target">
+                                    <rect key="frame" x="40" y="590" width="334" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="6Ff-bI-Jg5">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                        </constraint>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Geometria-Bold" family="Geometria" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Зарегистрироваться">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="4"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="Geometria-Bold" family="Geometria" pointSize="26"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="signUpButtonTapped:" destination="-1" eventType="touchUpInside" id="TVy-Ex-q5L"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="Sne-s6-Jfu" firstAttribute="leading" secondItem="zuz-34-kYA" secondAttribute="leading" id="1x3-P9-WI9"/>
+                                <constraint firstAttribute="bottom" secondItem="Sne-s6-Jfu" secondAttribute="bottom" id="6SO-jK-44w"/>
+                                <constraint firstItem="aHg-2x-qOQ" firstAttribute="top" secondItem="Gvf-iL-rHr" secondAttribute="bottom" constant="20" id="8QN-mB-Tc3">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="aHg-2x-qOQ" secondAttribute="trailing" constant="40" id="IaP-Mu-zjH">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="Gvf-iL-rHr" secondAttribute="trailing" constant="40" id="JIM-e8-QC8">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="Sne-s6-Jfu" secondAttribute="trailing" id="Kzh-KK-zI8"/>
+                                <constraint firstItem="Gvf-iL-rHr" firstAttribute="top" secondItem="zuz-34-kYA" secondAttribute="top" constant="125" id="dwm-1Z-5e2">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="155"/>
+                                </constraint>
+                                <constraint firstItem="Gvf-iL-rHr" firstAttribute="leading" secondItem="zuz-34-kYA" secondAttribute="leading" constant="40" id="hfM-c1-9ol">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                </constraint>
+                                <constraint firstItem="Sne-s6-Jfu" firstAttribute="top" secondItem="zuz-34-kYA" secondAttribute="top" id="rSG-gt-DPc"/>
+                                <constraint firstItem="aHg-2x-qOQ" firstAttribute="leading" secondItem="zuz-34-kYA" secondAttribute="leading" constant="40" id="x7q-7E-7jL">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                </constraint>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="zuz-34-kYA" firstAttribute="top" secondItem="3VX-NY-kFn" secondAttribute="top" id="10V-Oq-fDK"/>
+                        <constraint firstItem="zuz-34-kYA" firstAttribute="trailing" secondItem="3VX-NY-kFn" secondAttribute="trailing" id="Yvn-GW-DLh"/>
+                        <constraint firstItem="zuz-34-kYA" firstAttribute="bottom" secondItem="3VX-NY-kFn" secondAttribute="bottom" id="hBT-iD-umF"/>
+                        <constraint firstItem="zuz-34-kYA" firstAttribute="leading" secondItem="3VX-NY-kFn" secondAttribute="leading" id="sRv-lu-j5y"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="3VX-NY-kFn"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="5Zf-kh-gbC"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UOL-hL-v10" secondAttribute="bottom" id="EsH-r9-k0H"/>
+                <constraint firstAttribute="width" secondItem="zuz-34-kYA" secondAttribute="width" id="Z9z-xv-ZiU"/>
+                <constraint firstItem="UOL-hL-v10" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="aif-qx-q8e"/>
+                <constraint firstItem="UOL-hL-v10" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hCf-8p-T39"/>
+                <constraint firstItem="3VX-NY-kFn" firstAttribute="height" secondItem="zuz-34-kYA" secondAttribute="height" id="jpH-Zz-zl5"/>
+                <constraint firstItem="UOL-hL-v10" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="otD-rM-o9C"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="78.348214285714278"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="aHg-2x-qOQ">
+            <size key="intrinsicContentSize" width="196" height="36"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="auth_background" width="640" height="1136"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,162 @@
+/* 
+  Localization.strings
+  auth
+
+  Created by Alexandr on 28.12.2021.
+  
+*/
+
+
+//MARK: - Used more than once
+"BackButtonTitle" = "Back";
+"AgreePrivacyPolicyAlertText" = "Agree to the privacy policy before using the app";
+//MARK: -
+"NumberPhonePlaceholderTF" = "Phone number";
+"PasswordPlaceholderTF" = "Password";
+"LastNameTitle" = "Last name";
+"EnterYourNameTitle" = "Enter your name";
+//MARK: -
+"BeginnerLevel" = "Beginner";
+"SecondLevel" = "2nd level";
+"ThirdLevel" = "3rd level";
+"ProLevel" = "Pro";
+//MARK: -
+"RibbonBarItemTitle" = "Ribbon";
+//MARK: -
+"MaleTitle" = "Male";
+"FemaleTitle" = "Female";
+//MARK: -
+"DistanceTitle" = "Distance, km";
+"TimeTitle" = "Time, hours";
+"CaloriesTitle" = "Kcal spent";
+"AwardsTitle" = "AWARDS";
+//MARK: -
+"WorkoutFinishedTitle" = "Workout completed";
+//MARK: -
+"AuthError" = "Authorisation Error!";
+"Error" = "Error";
+"FailSavePDF" = "Save error";
+//MARK: -
+"AddFriendButtonTitle" = "Add friend";
+//MARK: -
+"AwardsTitle" = "ALL AWARDS";
+//MARK: -
+"WrongPasswordAlertText" = "Invalid password";
+"WrongPhoneAlertText" = "Wrong number";
+"WrongEmailAlertTitle" = "Invalid mail";
+"RegistrationButtonTtitle" = "Registration";
+//MARK: - Login Screen
+"AuthorizationTitle" = "AUTHORIZATION";
+"LoginButtonTitle" = "Sign in";
+"ForgotPasswordButtonTitle" = "Forgot your password?";
+"Success" = "Success";
+//MARK: -
+"SignInWithGoogleButtonTitle" = "Sign in with Google";
+"SignInWithVkButtonTitle" = "Sign in with VK";
+"SignInWithFBButtonTitle" = "Sign in with FB";
+
+//MARK: - Registration
+"RegistrationTitle" = "REGISTRATION";
+"EmailPlaceholderTF" = "Mail";
+"InputLastNameAlertTitle" = "Enter your last name";
+"ConfirmPasswordPlaceholderTF" = "Repeat password";
+
+//MARK: - ChooseLevelPreparation
+"ChooseLevelPreparation" = "CHOOSE YOUR LEVEL OF PREPARATION:";
+
+//MARK: - RecoveryPassword
+"RecoveryPasswordTitle" = "RECOVERY PASSWORD";
+"EmailTFTitle" = "Email";
+"RecoveryButtonTitle" = "Restore";
+
+//MARK: - TabBarControllers
+"WorkoutTitle" = "WORKOUT";
+"ActivityTitle" = "ACTIVITY";
+"RibbonTitle" = "RIBBON";
+"ProfileTitle" = "PROFILE";
+
+//MARK: - TabBar
+"WorkoutBarItemTitle" = "Workout";
+"ActivityBarItemTitle" = "Activity";
+"ProfileBarItemTitle" = "Profile";
+
+//MARK: - ListWorkouts
+"25SegmentTitle" = "25 meters";
+"50SegmentTitle" = "50 meters";
+"Download" = "Download";
+
+//MARK: - MyData
+"MyDataTitle" = "MY DATA";
+"ChangePhotoButtonTitle" = "Change photo";
+"IndicateYourNameTitle" = "Indicate your name, please.";
+"IndicateYourLastNameTitle" = "Indicate your last name, please.";
+"MyGenderTitle" = "My gender";
+"IndicateYourGenderTitle" = "Indicate your gender, please.";
+"MyAgeTitle" = "My age";
+"IndicateYourAgeTitle" = "Indicate your age, please.";
+"MyHeightTitle" = "My height";
+"IndicateYourHeightTitle" = "Indicate your height, please.";
+"MyWeightTitle" = "My weight";
+"IndicateYourWeightTitle" = "Indicate your weight at the moment, please";
+"MyDesiredWeightTitle" = "Desired weight";
+"IndicateYourDesiredWeightTitle" = "Indicate desired weight, please";
+"SaveButtonTitle" = "Save";
+"LogoutButtonTitle" = "Sign out";
+
+//MARK: - Choose Gender
+"GenderTitle" = "INDICATE YOUR GENDER PLEASE.";
+
+//MARK: - Profile
+"MyDataButtonTitle" = "My data";
+"MyFriendsButtonTile" = "My friends";
+"AllAwardsButtonTitle" = "See All Awards";
+
+//MARK: - Comments
+"CommentsTitle" = "COMMENTS";
+
+//MARK: - Result
+"ResultTitle" = "RESULT";
+"ShareButtonTitle" = "Share with friends";
+"NextWorkoutButtonTitle" = "Next workout";
+
+//MARK: - LoginError
+"WrongPhone" = "An account with such a phone does not exist";
+"WrongPassword" = "Password or phone is incorrect";
+"NoInternet" = "No internet connection";
+"AccountWithThisEmailAlreadyExists" = "An account with this email already exists";
+"AccountWithSuchPhoneAlreadyExists" = "An account with such a phone already exists";
+
+//MARK: - PhoneView
+"SearchTitle" = "Search";
+"CancelButtonTitle" = "Cancel";
+"BeginTraining" = "Start a workout";
+"FinishTraining" = "End workout";
+
+//MARK: - Activity
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+
+//MARK: - SearchController
+"AddFriendMessage" = "Do you really want to add as a friend ";
+"No" = "NO";
+"Yes" = "YES";
+"EnterNameTitle" = "Enter name";
+
+//MARK: - RibbonViewController
+"Minutes" = "minutes ago";
+"Hours" = "hours ago";
+
+//MARK: - Friends
+"FriendTitle" = "friend";
+"FriendsTitle" = "MY FRIENDS";
+
+//MARK: PlaceholderView
+"PlaceholderLabelTitle" = "Add friends to see their posts";
+
+//MARK: - Video View
+"VideoNull" = "Video missing";
+
+//MARK: - IAP ViewController
+"DescrptionIAP" = "This exercise is available for viewing by premium users. Buy a premium account now to get access to the very best exercises.";
+"MonthSubTitle" = "/month";
+"YearSubTitle" = "/ year (savings 23%)";
